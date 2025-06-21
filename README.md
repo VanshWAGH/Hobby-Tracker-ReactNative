@@ -1,6 +1,41 @@
-# Welcome to your Expo app 👋
+# Hobby Tracker 🎨⏱️
+A full-stack mobile app to track hobbies with **Appwrite** backend for authentication and data storage. Built with React Native (Expo) and React Native Paper.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## Screenshots 📸
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/77970798-a596-4299-af06-f352a5463e1e" width="200" hspace="10" alt="Dashboard">
+  <img src="https://github.com/user-attachments/assets/cb1ae4cb-a357-4812-894c-1c216fc20140" width="200" hspace="10" alt="Add Hobby">
+  <img src="https://github.com/user-attachments/assets/5aaf7054-1541-45e6-8490-152b1e3ed58b" width="200" hspace="10" alt="Statistics">
+  <img src="https://github.com/user-attachments/assets/2d8f0d0d-ae48-4a17-bb37-c0c3ab559446" width="200" hspace="10" alt="Dark Mode">
+</p>
+
+## Features ✨
+
+### 🔐 User Authentication
+- **Secure Sign Up** with email/password
+- **Login/Logout** functionality
+- **Protected routes** for authenticated users only
+
+  
+### 🎯 Hobby Management
+- **Add new hobbies** with name, category, duration, and date
+- **Edit existing hobbies** to update details
+- **Delete hobbies** with confirmation dialog
+- **Track time spent** per hobby session
+- **Categorize hobbies** with custom tags
+
+  ## Tech Stack 💻
+| Frontend | Backend |
+|----------|---------|
+| React Native (Expo) | Appwrite |
+| React Navigation | Appwrite Database |
+| React Native Paper | Appwrite Auth |
+| JavaScript/JSX | Appwrite Storage |
+
+
+
 
 ## Get started
 
